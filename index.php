@@ -105,7 +105,7 @@
                             aliquip ipsum dolore amet.</p>
                     </div>
                     <div class="col-sm-7 hidden-xs">
-                        <img loading="lazy" src="assets/img/ipad-pro.png" alt="">
+                        <img loading="lazy" src="assets/img/ipad-pro.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img loading="lazy" src="assets/img/portfolio-1.jpg" class="img-res" alt="">
+                            <img loading="lazy" src="assets/img/portfolio-7.jpg" class="img-res" alt="">
                             <h4 align="justify" class="portfolio-item-title">Portfolio item <br>
                                 Lorem ipsum dolor sit amet eos duis ullamcorper vero. Esse blandit eu aliquam et lorem sea 
                                     erat no clita et tempor et est lorem est et et.</h4>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img loading="lazy" src="assets/img/portfolio-2.jpg" class="img-res" alt="">
+                            <img loading="lazy" src="assets/img/portfolio-8.jpg" class="img-res" alt="">
                             <h4 align="justify" class="portfolio-item-title">Portfolio item <br>
                                 Lorem ipsum dolor sit amet eos duis ullamcorper vero. Esse blandit eu aliquam et lorem sea 
                                     erat no clita et tempor et est lorem est et et.</h4>
