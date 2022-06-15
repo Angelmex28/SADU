@@ -1,5 +1,20 @@
 <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-primary navbar-dark ">
+
+  <!-- Estilos del Navbar donde dice SADU porque en la plantilla de boostrap estan ocultos -->
+  <style>
+	.navbar-primary {
+    background-color: #E6E20A;
+}
+  .text-white{
+    color: #000!important;
+  }
+  .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 75%)!important;
+}
+</style>
+
+
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <?php if(isset($_SESSION['login_id'])): ?>

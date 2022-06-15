@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon.png">
   <?php 
   ob_start();
-  $title = isset($_GET['page']) ? ucwords(str_replace("_", ' ', $_GET['page'])) : "Home";
+  $title = isset($_GET['page']) ? ucwords(str_replace("_", ' ', $_GET['page'])) : "Tablero";
   ?>
   <title><?php echo $title ?> | SADU
 </title>

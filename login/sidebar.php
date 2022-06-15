@@ -20,6 +20,14 @@
     <div class="sidebar">
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column nav-flat" data-widget="treeview" role="menu" data-accordion="false">
+
+        <style>
+              .nav-link.active {
+                background-color: #E6E20A!important;
+                color: #000!important;
+            }
+        </style>
+
           <li class="nav-item dropdown">
           <i class="nav-icon fas fa-tachometer-alt"></i>
           </li>
@@ -27,7 +35,7 @@
             <a href="./" class="nav-link nav-home">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Tablero
               </p>
             </a>
             
@@ -79,26 +87,46 @@
               </li>
             </ul>
           </li>  
-        <?php else: ?>
+          
           <li class="nav-item">
-            <a href="#" class="nav-link nav-is-tree nav-edit_document nav-view_document">
-              <i class="nav-icon fa fa-folder-open"></i>
+            <a href="#" class="nav-link nav-is-tree nav-resp_db nav-rest_db">
+              <i class="nav-icon fa fa-clone"></i>
               <p>
-                Documents
+                Respaldos
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.php?page=new_document" class="nav-link nav-new_document tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
-                  <p>Add New</p>
+                <a href="./index.php?page=resp_db" class="nav-link nav-resp_db tree-item">
+                  <i class="fas fa-arrow-circle-up nav-icon"></i>
+                  <p>Respaldar Base de Datos</p>
                 </a>
               </li>
               <li class="nav-item">
+                <a href="./index.php?page=rest_db" class="nav-link nav-rest_db tree-item">
+                  <i class="fas fa-arrow-circle-down nav-icon"></i>
+                  <p>Restaurar Base de Datos</p>
+                </a>
+              </li>
+            </ul>
+          </li>  
+
+
+
+        <?php else: ?>
+          <li class="nav-item">
+            <a href="#" class="nav-link nav-is-tree nav-edit_document nav-view_document">
+              <i class="nav-icon fa fa-folder-open"></i>
+              <p>
+                Documentos
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+              <li class="nav-item">
                 <a href="./index.php?page=document_list" class="nav-link nav-document_list tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
-                  <p>List</p>
+                  <p>Lista Documentos</p>
                 </a>
               </li>
             </ul>

@@ -12,6 +12,24 @@
 						</div>
 					</div>
 				</div>
+        <div>
+        <div class="row">
+        <div class="col-md-10">
+          <label for="" class="control-label">Seleccione el PNF del Documento:</label>
+            <div class="mb-3">
+              <select name="color" id="aqui se pone la conexion" class="form-select form-select-lg">
+                <option value="">PNFA</option>
+                <option value="">PNFB</option>
+                <option value="">PNFC</option>
+                <option value="">PNFD</option>
+                <option value="">PNFE</option>
+                <option value="">PNFF</option>
+                <option value="">PNFI</option>
+              </select>
+            </div>
+          </div>
+          </div>
+        </div>
 				<div class="row">
 					<div class="col-md-10">
 						<div class="form-group">
