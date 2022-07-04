@@ -64,7 +64,7 @@
 
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                               <li><a href="login/login.php">Iniciar Sesión</a></li>
-                              <li><a href="login/registrar.php">Registrarse</a></li>
+                              <li><a href="registro/registrar.php">Registrarse</a></li>
                             </ul>
 
                         </li>

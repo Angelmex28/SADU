@@ -61,8 +61,8 @@
                         <li><a href="../index.php">Página Principal</a></li>
 
                         </li>
-                        <li><a href="login.php">Iniciar Sesión</a></li>
-                        <li><a href="../registro/registrar.php">Registrarse</a></li>
+                        <li><a href="../login/login.php">Iniciar Sesión</a></li>
+                        <li><a href="registrar.php">Registrarse</a></li>
                     </ul>
 
                 </div>

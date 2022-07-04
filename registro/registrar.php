@@ -35,10 +35,10 @@
     <link href="partials/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="partials/css/header.css" rel="stylesheet">
-    <link href="partials/css/responsive.css" rel="stylesheet">
-    <link href="partials/css/estilos.css" rel="stylesheet">
-    <link href="partials/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/estilos.css" rel="stylesheet">
+    <link href="assets/css/normalize.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -51,7 +51,7 @@
 <?php require 'header_login.php' ?> <br>
 <main>
 		<div class="w-100" style="padding:1em 0 3em;">
-                <h1 style="font-size: 40px; justify-content: center; text-align: center;"><a href="login.php">Iniciar Sesión o</a></h1>
+                <h1 style="font-size: 40px; justify-content: center; text-align: center;"><a href="../login/login.php">Iniciar Sesión o</a></h1>
                 <h1 class="text-white" style="font-size: 40px; justify-content: center; text-align: center;">Registrar:</h1>
 				</div>
 				<h3 class="text-white text-center" style="font-size: 30px; margin-top: 0px;"><b>SADU</b></h3>
@@ -160,15 +160,15 @@
             </div> 
         </div>
 
-	<script src="partials/js/formulario.js"></script>
+	<script src="assets/js/formulario.js"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/jquery.shuffle.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.min.js"></script>
+    <script src="../assets/js/jquery.slicknav.min.js"></script>
+    <script src="../assets/js/jquery.countTo.min.js"></script>
+    <script src="../assets/js/jquery.shuffle.min.js"></script>
+    <script src="../assets/js/script.js"></script>
  </main>
 
 </body>

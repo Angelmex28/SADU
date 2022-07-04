@@ -44,7 +44,7 @@ header("location:index.php?page=home");
   	
   <div class="align-self-center w-100">
 	  <div style="padding: 4em 0 0em">
-			<h1 style="font-size: 35px" class="text-white text-center"><a href="registrar.php">Registrar o </a> </h1>
+			<h1 style="font-size: 35px" class="text-white text-center"><a href="../registro/registrar.php">Registrar o </a> </h1>
     		<h1 style="font-size: 35px" class="text-white text-center">Iniciar Sesión:<br></h1>
 			</div>
 			
@@ -62,7 +62,7 @@ header("location:index.php?page=home");
   							<label for="password" class="control-label text-dark">Contraseña</label>
   							<input type="password" id="password" name="password" class="form-control form-control-sm" style="margin: 0.5rem 0 1.5rem">
   						</div>
-						  <br>
+						  <li><a href="">Recuperar Contraseña</a></li>
   						<center><button class="btn-block btn btn-primary" style="border-color: #d8d8d8; border-width: 3px; border-style: solid; margin: 0.5rem 0 1rem;">Ingresar</button></center>
   					</form>
   				</div>
